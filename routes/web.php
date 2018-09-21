@@ -14,4 +14,4 @@
 Route::get('/','Home@index');
 
 Route::resource('/users_laravel','UserController');
-Route::resource('/users_vue','UserController');
+Route::resource('/users_vue','UserVueController');

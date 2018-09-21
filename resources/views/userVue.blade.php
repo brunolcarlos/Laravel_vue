@@ -3,6 +3,10 @@
     <div class="container">
         
         @include('top')
-        @include('blade.bodyBlade')     
+        
+        @include('vue.bodyVue')
+        
+        
+        
         @include('footer')
         
