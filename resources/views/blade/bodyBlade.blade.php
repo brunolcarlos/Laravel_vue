@@ -1,9 +1,9 @@
 <table class="table table-striped">
     <thead>
         <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Email</th>
+            <th><a href="#">ID</a></th>
+            <th><a href="#">Name</a></th>
+            <th><a href="#">Email</a></th>
         </tr>
     </thead>
     <tbody>
