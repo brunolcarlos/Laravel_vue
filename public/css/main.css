@@ -1,0 +1,13 @@
+nav{
+    height: 100px;
+    padding-top:30px;
+    margin-bottom: 10px;
+
+}
+.footer{
+    background: #212121;
+    color: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    bottom: 0;
+}
