@@ -2,7 +2,7 @@ body{
     background: #f5f5f5 !important;
 }
 nav{
-    height: 100px;
+    height: auto;
     padding-top:60px;
     
 }
