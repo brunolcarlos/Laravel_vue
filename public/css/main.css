@@ -21,3 +21,9 @@ input{
 .form_register h1{
     font-size: 1.6em;
 }
+.form_register{
+    background:#f5f5f5  !important;
+    padding: 10px;
+    border-radius: 5px;
+    border:solid 1px #eeeeee ;
+}
