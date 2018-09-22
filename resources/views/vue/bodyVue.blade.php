@@ -1,4 +1,6 @@
 @if(@$customer)
+<h3>It's not ready yet</h3>
+<br>
 <table class="table table-striped">
     <thead>
         <tr>
