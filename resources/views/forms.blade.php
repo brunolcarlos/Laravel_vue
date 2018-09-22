@@ -1,6 +1,9 @@
 @if(session('success'))
 <p class="alert alert-info">{{ session('success') }}</p>
 @endif
+@if($errors->first())
+<p class="alert alert-danger">{{$errors->first()}}</p>
+@endif
 
 
 <div class="form_register">
@@ -15,11 +18,11 @@
         <div class="row">
             <div class="col-xm-12 col-sm-12 col-md-6 col-lg-6">
                 <label for="name">Name</label>
-                <input type="text" name="name" class="form form-control" id="name">
+                <input type="text" name="name" class="form form-control" value="{{old('name')}}" id="name">
             </div>
             <div class="col-xm-12 col-sm-12 col-md-6 col-lg-6">
                 <label for="email">Email</label>
-                <input type="text" name="email" class="form form-control" id="email">
+                <input type="text" name="email" class="form form-control" id="email" value="{{old('email')}}">
             </div>
             <div class="col-xm-12 col-sm-12 col-md-6 col-lg-6">
                 <label for="password">Password</label>
