@@ -1,8 +1,18 @@
+body{
+    background: #f5f5f5 !important;
+}
 nav{
     height: 100px;
-    padding-top:30px;
-    margin-bottom: 10px;
+    padding-top:60px;
 
+}
+.navs{
+    background: #fafafa  !important;
+    padding: 0;
+    margin-bottom: 0 !important;
+    border-right: solid 1px #eeeeee ;
+    border-left: solid 1px #eeeeee ;
+    border-bottom: solid 1px #eeeeee ;
 }
 .footer{
     background: #212121;
@@ -26,8 +36,18 @@ input{
     padding: 10px;
     border-radius: 5px;
     border:solid 1px #eeeeee ;
+    float: left;
+    width: 100%;
 }
 .container{
     border-right: solid 1px #eeeeee ;
     border-left: solid 1px #eeeeee ;
+}
+.container{
+    background: #fff;
+}
+.spanTop{
+    height: 30px;
+    width:100%;
+    float: left;
 }

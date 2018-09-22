@@ -1,8 +1,9 @@
 @include('head')
 <body>
+    
+    @include('top')
     <div class="container">
         
-        @include('top')
         @include('forms')     
         @if(@$customer)
         
