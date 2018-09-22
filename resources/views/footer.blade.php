@@ -7,6 +7,8 @@
         </a>
         <br><hr>
         <small class="align align-center">My Laravel Project with VueJS</small>
+        <br>
+        <small class="align align-center"><a href="mailto:sitespomerode@gmail.com">sitespomerode@gmail.com</a></small>
     </center>
 </div>
 </div>
@@ -18,7 +20,7 @@
     $(document).ready(function() {
         $('#myTable').DataTable( {
             ajax: {
-                url: '/Laravel_vue/get_users',
+                url: 'http://www.brunolc.site/laravel_vue/get_users',
                 crossDomain : true,
                 format: 'json',
                 jsonCompat: 'new',
