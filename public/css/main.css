@@ -4,7 +4,7 @@ body{
 nav{
     height: 100px;
     padding-top:60px;
-
+    
 }
 .navs{
     background: #fafafa  !important;
@@ -50,4 +50,19 @@ input{
     height: 30px;
     width:100%;
     float: left;
+    
+}
+p{
+    float:left;
+    width: 100%;
+}
+@media(max-width:800px){
+    .spanTop{
+        height: 30px;
+        width:100%;
+        float: left;
+        margin-bottom: 10px;
+    }
+    
+    
 }
