@@ -6,7 +6,5 @@
         
         @include('vue.bodyVue')
         
-        
-        
         @include('footer')
         

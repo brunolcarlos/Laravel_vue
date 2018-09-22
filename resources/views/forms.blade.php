@@ -9,7 +9,7 @@
 <div class="form_register">
     <h1>Register a new User</h1>
     <hr>
-    <form action="http://www.localhost/Laravel_vue/users_laravel" method="POST">
+    <form action="./users_laravel" method="POST">
         <!-- csrf_token -->
         <input type="hidden" name="_method" value="POST">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
