@@ -11,3 +11,13 @@ nav{
     margin-top: 30px;
     bottom: 0;
 }
+.form_register{
+    min-height: auto;
+    margin-bottom: 30px;
+}
+input{
+    margin-bottom: 5px !important;
+}
+.form_register h1{
+    font-size: 1.6em;
+}

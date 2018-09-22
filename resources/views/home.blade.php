@@ -3,13 +3,10 @@
     <div class="container">
         
         @include('top')
-        
+        @include('forms')     
         @if(@$customer)
-
-        @foreach ($customer as $user)
-        <p>This is customer {{$user->name}}</p>
-        <hr>
-        @endforeach
+        
+        @include('blade.bodyBlade')    
         
         @else
         

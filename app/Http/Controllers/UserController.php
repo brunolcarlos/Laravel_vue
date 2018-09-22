@@ -14,7 +14,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        $customer = User::all();
+        $customer = User::paginate(5);
         return view('users')->with('customer',$customer);
     }
 

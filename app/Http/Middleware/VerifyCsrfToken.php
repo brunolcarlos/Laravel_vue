@@ -19,6 +19,6 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        'http://localhost/Laravel_vue/users'
+        'http://localhost/Laravel_vue/users_laravel'
     ];
 }
