@@ -27,3 +27,7 @@ input{
     border-radius: 5px;
     border:solid 1px #eeeeee ;
 }
+.container{
+    border-right: solid 1px #eeeeee ;
+    border-left: solid 1px #eeeeee ;
+}
