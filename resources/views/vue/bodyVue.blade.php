@@ -1,8 +1,9 @@
-@if(@$customer)
 <br>
-<h3>It's not ready yet</h3>
+<h3>With Jquery is ready</h3>
+<small>Vue is not ready yet</small>
+<hr>
 <br>
-<table class="table table-striped">
+<table id="myTable" class="table table-striped display">
     <thead>
         <tr>
             <th><a href="#">ID</a></th>
@@ -12,21 +13,13 @@
     </thead>
     <tbody>
         <tr>
-            @foreach ($customer as $user)
-            <tr class="striped">
-                <td>{{$user->id}}</td>
-                <td>{{$user->name}}</td>
-                <td>{{$user->email}}</td>
+            <tr>
+                <td>id</td>
+                <td>name</td>
+                <td>email</td>
             </tr>
-            @endforeach
-            
         </tbody>
     </table>
     
-    @else
-    
-    <p>Sorry, no data found</p>
-    
-    @endif
     
     
